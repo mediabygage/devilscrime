@@ -96,7 +96,7 @@
 /* Large Screens & Desktop */
 @media (min-width: 950px) {
   .logo {
-    width: 18%;
+    width: 30%;
   }
 
   .header-container {
