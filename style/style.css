@@ -1,0 +1,93 @@
+body {
+    background-color: #252525;
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: dejavu;
+    src: url('/assets/fonts/dejavu/DejaVuSans.ttf');
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; 
+    max-height: 100px;
+    max-width: 100%;
+    background-color: #161616;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 18rem;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #79241f;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.589);
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 55rem; 
+    justify-content: space-between;
+    font-family: dejavu;
+    font-size: 18px;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.hero {
+    max-width: 70%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.589);
+}
+
+.right {
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+}
+
+/* Need to further specify so that all site links do not
+inherit the rules below. */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #252525;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 3rem;
+    color: white;
+}
+
+p {
+    font-family: arial;
+    font-size: 1rem;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
