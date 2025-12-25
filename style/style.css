@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: dejavu;
-    src: url('/assets/fonts/dejavu/DejaVuSans.ttf');
+    src: url('../assets/fonts/dejavu/DejaVuSans.ttf');
 }
 
 .header-container {
