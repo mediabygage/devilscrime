@@ -99,6 +99,16 @@
     width: 18%;
   }
 
+  .header-container {
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-container {
+    position: sticky;
+    top: 95px;    
+  }
+
   .nav-links-container {
     width: 45rem;
     font-size: 0.95rem;
