@@ -87,6 +87,7 @@
   }
 
   .content-container {
+    display: flex;
     flex-direction: row;
     font-size: 0.8rem;
     margin: 2rem 1rem;
@@ -105,8 +106,9 @@
   }
 
   .nav-container {
-    position: sticky;
-    top: 95px;    
+    position: fixed;
+    width: 100%;
+    top: 94px;    
   }
 
   .nav-links-container {
@@ -121,7 +123,7 @@
     align-items: center;
     max-width: 75rem;
     margin-inline: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
   }
 }
