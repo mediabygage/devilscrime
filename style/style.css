@@ -1,7 +1,7 @@
 body {
     background-color: #252525;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 @font-face {
@@ -27,17 +27,18 @@ body {
 }
 
 .logo {
-    width: 18rem;
+    max-width: 17rem;
+    min-width: 13rem;
 }
 
 .nav-container {
     display: flex;
-    background-color: #79241f;
+    background-color: #79241ffd;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.589);
     justify-content: center;
     align-content: center;
     max-width: 100%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .nav-links-container {
@@ -47,6 +48,11 @@ body {
     justify-content: space-between;
     font-family: dejavu;
     font-size: 18px;
+}
+
+.content-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .left {
@@ -65,11 +71,43 @@ body {
     align-items: center;
 }
 
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #161616;
+    padding: 20px;
+    text-align: center;
+    width: 55rem;
+    font-family: dejavu;
+}
+
+.footer-left {
+    flex: 50%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-right {
+    flex: 50%;
+}
+
+
 /* Need to further specify so that all site links do not
 inherit the rules below. */
 a {
     text-decoration: none;
-    color: white;
+    color: white; 
 }
 
 a:hover {
@@ -79,6 +117,12 @@ a:hover {
 h1 {
     font-family: arial;
     font-size: 3rem;
+    color: white;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 1.25rem;
     color: white;
 }
 

@@ -1,6 +1,10 @@
 /* Mobile Small */
 @media (min-width: 320px) and (max-width: 475px) {
-    .logo {
+  .header-container {
+    padding: 10px;
+  }
+
+  .logo {
     width: 50%;
   }
   
@@ -23,7 +27,11 @@
 
 
 /* Mobile Medium */
-@media (min-width: 475px) {
+@media (min-width: 475px) { 
+    .header-container {
+    padding: 10px;
+  }
+  
     .logo {
     width: 40%;
   }
@@ -104,6 +112,6 @@
     max-width: 75rem;
     margin-inline: auto;
     margin-top: 5rem;
-}
-
+    margin-bottom: 5rem;
+  }
 }
