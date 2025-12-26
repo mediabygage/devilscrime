@@ -1,7 +1,7 @@
 body {
     background-color: #252525;
     margin: 0;
-    overflow: auto;
+    overflow-y: scroll; /*Forces a scroll-bar to prevent content shifting*/
 }
 
 @font-face {
@@ -53,23 +53,23 @@ body {
 .content-container {
     margin-top: 5rem;
     margin-bottom: 5rem;
+
 }
 
 .left {
-    flex: 1;
+    flex: 50%;
     text-align: center;
 }
 
+.right {
+    flex: 50%;
+}
+
 .hero {
-    max-width: 90%;
+    max-width: 70%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.589);
 }
 
-.right {
-    flex: 1;
-    justify-content: left;
-    align-items: center;
-}
 
 .footer-wrapper {
     display: flex;
@@ -120,6 +120,13 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: arial;
+    font-size: 2rem;
+    color: white;
+}    
+
+
 h3 {
     font-family: arial;
     font-size: 1.25rem;
@@ -134,4 +141,10 @@ p {
 
 li {
     list-style: none;
+}
+
+span {
+    color: white;
+    font-family: arial;
+    font-size: 1rem;
 }
