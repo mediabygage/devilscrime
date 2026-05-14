@@ -24,6 +24,11 @@
     text-align: center;
   }
 
+  .bottom {
+    margin: 0rem 4rem;
+    text-align: center;
+  }
+
 }
 
 
@@ -52,6 +57,11 @@
     margin: 0rem 3rem;
     text-align: center;
   }
+
+  .bottom {
+    margin: 0rem 4rem;
+    text-align: center;
+  }
 }
 
 /* Mobile Large */
@@ -72,6 +82,11 @@
   }
 
   .right {
+    margin: 0rem 4rem;
+    text-align: center;
+  }
+
+  .bottom {
     margin: 0rem 4rem;
     text-align: center;
   }
@@ -149,7 +164,8 @@
   }
 
   .bottom {
+    text-align: left;
     flex-direction: column;
-    margin: 0 4rem 0 4rem;
+    margin: 1rem 4.5rem 1rem 4.5rem;
   }
 }
