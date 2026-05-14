@@ -128,7 +128,8 @@
 
   .content-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     max-width: 100rem;
@@ -140,5 +141,15 @@
 
   .right {
     text-align: left;
+    flex: 1;
+  }
+  
+  .left {
+    flex: 1;
+  }
+
+  .bottom {
+    flex-direction: column;
+    margin: 0 4rem 0 4rem;
   }
 }

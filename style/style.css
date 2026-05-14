@@ -80,7 +80,7 @@ body {
 }
 
 .footer-left {
-    flex: 50%;
+    flex: 1;
 }
 
 .footer-nav {
@@ -91,7 +91,7 @@ body {
 }
 
 .footer-right {
-    flex: 50%;
+    flex: 1;
 }
 
 
