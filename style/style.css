@@ -130,7 +130,7 @@ h3 {
 
 p {
     font-family: 'Source Sans 3'; /* body */
-    font-size: 1.10rem;
+    font-size: 1.25rem;
     font-weight: 300;
     color: white;
 }
@@ -139,9 +139,23 @@ li {
     list-style: none;
 }
 
+.homelinks {
+    font-size: 1rem;
+    font-family: 'Source Sans 3'; /* body */
+    display: inline;
+    color: white;
+}
+
+
 span {
     color: white;
     font-family: 'Source Sans 3';
     font-weight: 300;
     font-size: 1.10rem;
+}
+
+.booksref {
+    color: #d92017fd;
+    font-family: 'Cinzel', serif;
+    font-size: 1.25rem;
 }
