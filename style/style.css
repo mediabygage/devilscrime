@@ -5,11 +5,6 @@ body {
     overflow-y: scroll; /*Forces a scroll-bar to prevent content shifting*/
 }
 
-@font-face {
-    font-family: dejavu;
-    src: url('../assets/fonts/dejavu/DejaVuSans.ttf');
-}
-
 .header-container {
     display: flex;
     flex-direction: column;
@@ -47,27 +42,22 @@ body {
     flex-direction: row;
     width: 55rem; 
     justify-content: space-between;
-    font-family: dejavu;
-    font-size: 18px;
-}
-
-.content-container {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    font-family: 'Cinzel';
+    font-weight: 500;
 
 }
 
 .left {
-    flex: 50%;
+    flex: 60%;
     text-align: center;
 }
 
 .right {
-    flex: 50%;
+    flex: 40%;
 }
 
 .hero {
-    max-width: 70%;
+    max-width: 80%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.589);
 }
 
@@ -85,7 +75,8 @@ body {
     padding: 20px;
     text-align: center;
     width: 55rem;
-    font-family: dejavu;
+    font-family: 'Source Sans 3';
+    font-weight: 300;
 }
 
 .footer-left {
@@ -116,27 +107,31 @@ a:hover {
 }
 
 h1 {
-    font-family: arial;
+    font-family: 'Cinzel', serif; /* headings */
+    font-weight: 600;
     font-size: 3rem;
     color: white;
 }
 
 h2 {
-    font-family: arial;
+    font-family: 'Cinzel', serif; /* headings */
+    font-weight: 500;
     font-size: 2rem;
     color: white;
 }    
 
 
 h3 {
-    font-family: arial;
+    font-family: 'Cinzel', serif; /* headings */
+    font-weight: 500;
     font-size: 1.25rem;
     color: white;
 }
 
 p {
-    font-family: arial;
-    font-size: 1rem;
+    font-family: 'Source Sans 3'; /* body */
+    font-size: 1.10rem;
+    font-weight: 300;
     color: white;
 }
 
@@ -146,6 +141,7 @@ li {
 
 span {
     color: white;
-    font-family: arial;
-    font-size: 1rem;
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-size: 1.10rem;
 }
